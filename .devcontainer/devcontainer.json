@@ -33,8 +33,15 @@
 		"vscode": {
 			"extensions": [
 				"rust-lang.rust-analyzer",
-				"eamodio.gitlens"
-			]
+				"eamodio.gitlens",
+				"svelte.svelte-vscode",
+    			"tauri-apps.tauri-vscode"
+			],
+			"settings": {
+				"[svelte]": {
+					"svelte.enable-ts-plugin": true
+				}
+			}
 		}
 	}
 
